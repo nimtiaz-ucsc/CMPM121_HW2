@@ -1,9 +1,9 @@
 # Homework 1 - Craft a Scene
 
-Objects: 
-Sculpted assets:
+##Objects: 
+###Sculpted assets:
 
-Found assets:
+###Found assets:
 
-GameObjects: 
+###GameObjects: 
 Floor/Walls (Planes)
