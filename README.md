@@ -2,7 +2,8 @@
 
 ## Objects: 
 ### Sculpted assets (3pt):
-Flower pot + plant
+Flower plant
+Desk
 
 ### Found assets (2pt):
 
