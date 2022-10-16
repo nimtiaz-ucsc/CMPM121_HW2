@@ -1,12 +1,19 @@
 # Homework 1 - Craft a Scene
 
 ### Objects: 
-#### Sculpted assets (3pt):
-* Flower plant
+#### Modeled assets (3 pts):
+* Room
 * Desk
+* PC (Tower, Monitor, Keyboard, Mouse)
+* Flower + Pot
+* Lamp
+* Trash can
 
-#### Found assets (2pt):
-* 
+#### Found assets (2 pts):
+* Businessman [MAIN PLAYABLE CHARACTER]
+* Chair
+* Water cooler
+* Phone
 
-#### GameObjects (1pt): 
-* Floor/Walls (Planes)
+#### GameObjects (1 pts): 
+* N/A
