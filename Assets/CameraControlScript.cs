@@ -5,9 +5,6 @@ using UnityEngine;
 using UnityEngine.UIElements;
 
 public class CameraControlScript : MonoBehaviour {
-    // void Start() {
-    //     EnableCamera(0);
-    // }
     public List<Camera> Cameras;
 
     private VisualElement frame;
@@ -15,6 +12,10 @@ public class CameraControlScript : MonoBehaviour {
     private Button button_3P;
     private Button button_ortho;
     private Button button_script;
+
+    void Start() {
+        EnableCamera(0);
+    }
 
     void OnEnable() {
         var uiDocument = GetComponent<UIDocument>();
