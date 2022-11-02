@@ -433,7 +433,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!81 &156535616
 AudioListener:
   m_ObjectHideFlags: 0
@@ -643,12 +643,12 @@ GameObject:
   - component: {fileID: 457275546}
   - component: {fileID: 457275548}
   m_Layer: 5
-  m_Name: UIDocument
+  m_Name: Camera UI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &457275546
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1049,7 +1049,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!81 &742403436
 AudioListener:
   m_ObjectHideFlags: 0
@@ -1206,7 +1206,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!81 &801129378
 AudioListener:
   m_ObjectHideFlags: 0
@@ -1530,7 +1530,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1773414129}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 28.914635, y: 3.420928, z: 5.14}
+  m_LocalPosition: {x: 28.914635, y: 3.420928, z: 7.6312294}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1600,7 +1600,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 13
+  orthographic size: 25
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
