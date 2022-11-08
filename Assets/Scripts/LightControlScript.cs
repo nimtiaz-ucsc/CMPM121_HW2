@@ -14,7 +14,7 @@ public class LightControlScript : MonoBehaviour {
     private Button button_script;
 
     void Start() {
-        EnableCamera(0);
+        SetIntensity(0);
     }
 
     void OnEnable() {
@@ -28,13 +28,13 @@ public class LightControlScript : MonoBehaviour {
         button_ortho = frame.Q<Button>("Orthographic");
         button_script = frame.Q<Button>("Scripted");
 
-        button_1P.RegisterCallback<ClickEvent>(ev => EnableCamera(0));
-        button_3P.RegisterCallback<ClickEvent>(ev => EnableCamera(1));
-        button_ortho.RegisterCallback<ClickEvent>(ev => EnableCamera(2));
-        button_script.RegisterCallback<ClickEvent>(ev => EnableCamera(3));
+        button_1P.RegisterCallback<ClickEvent>(ev => SetIntensity(0));
+        button_3P.RegisterCallback<ClickEvent>(ev => SetIntensity(1));
+        button_ortho.RegisterCallback<ClickEvent>(ev => SetIntensity(2));
+        button_script.RegisterCallback<ClickEvent>(ev => SetIntensity(3));
     }
 
-    private void EnableCamera(int n) {
+    private void SetIntensity(int n) {
         Lights.ForEach(light => light.intensity = n);
     }
 }

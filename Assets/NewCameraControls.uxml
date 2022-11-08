@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="Frame" style="height: 124px; align-items: auto; justify-content: center; flex-direction: column-reverse; width: 152px; position: absolute; left: -15px; -unity-text-align: upper-center;">
+        <ui:Button text="Scripted" display-tooltip-when-elided="true" name="Scripted" style="height: 15px; width: 100px; background-color: rgb(161, 155, 57);" />
+        <ui:Button text="Orthographic" display-tooltip-when-elided="true" name="Orthographic" style="height: 15px; width: 100px; background-color: rgb(93, 91, 200);" />
+        <ui:Button text="3rd Person" display-tooltip-when-elided="true" name="3rd_Person" style="height: 15px; width: 100px; background-color: rgb(104, 183, 60);" />
+        <ui:Button text="1st Person" display-tooltip-when-elided="true" name="1st_Person" style="height: 15px; width: 100px; background-color: rgb(168, 66, 71);" />
+        <ui:Label text="Camera Controls" display-tooltip-when-elided="true" style="width: 132px; background-color: rgb(147, 147, 147);" />
+    </ui:VisualElement>
+</ui:UXML>

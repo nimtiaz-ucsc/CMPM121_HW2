@@ -432,7 +432,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &144271479
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -462,7 +462,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PanelSettings: {fileID: 11400000, guid: 3aa085264f6d7054d8a4796cf2407077, type: 2}
   m_ParentUI: {fileID: 0}
-  sourceAsset: {fileID: 9197481963319205126, guid: cdcfb9661f3f3874ebbfee4d0cee9935, type: 3}
+  sourceAsset: {fileID: 9197481963319205126, guid: 353d06f38350f6e4993ea5b1bfabffa3, type: 3}
   m_SortingOrder: 0
 --- !u!4 &144271481
 Transform:
@@ -712,7 +712,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &457275546
 MonoBehaviour:
   m_ObjectHideFlags: 0
