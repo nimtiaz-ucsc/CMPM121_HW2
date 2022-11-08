@@ -1,0 +1,15 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="CameraFrame" style="height: 141px; width: 60px;">
+        <ui:Label text="Camera&#10;Controls" display-tooltip-when-elided="true" style="background-color: rgb(82, 82, 82); width: 56px; height: 17px; font-size: 6px; -unity-font-style: bold; -unity-text-align: middle-center; color: rgb(255, 255, 255);" />
+        <ui:Button text="First\nPerson" display-tooltip-when-elided="true" name="1st_Person" style="height: 0; width: 51px; font-size: 6px; -unity-font-style: bold;" />
+        <ui:Button text="Third\nPerson" display-tooltip-when-elided="true" name="3rd_Person" style="height: 0; width: 51px; font-size: 6px; -unity-font-style: bold;" />
+        <ui:Button text="Orthographic" display-tooltip-when-elided="true" name="Orthographic" style="height: 0; width: 51px; font-size: 6px; -unity-font-style: bold;" />
+        <ui:Button text="Scripted" display-tooltip-when-elided="true" name="Scripted" style="height: 0; width: 51px; font-size: 6px; -unity-font-style: bold;" />
+    </ui:VisualElement>
+    <ui:VisualElement name="LightingFrame" style="height: 206px; width: 60px;">
+        <ui:Label text="Lighting&#10;Controls" display-tooltip-when-elided="true" style="background-color: rgb(82, 82, 82); width: 56px; height: 17px; font-size: 6px; -unity-font-style: bold; -unity-text-align: middle-center; color: rgb(255, 255, 255);" />
+        <ui:Button text="On" display-tooltip-when-elided="true" name="On" style="height: 0; width: 51px; font-size: 6px; -unity-font-style: bold;" />
+        <ui:Button text="Dimmed" display-tooltip-when-elided="true" name="Dimmed" style="height: 0; width: 51px; font-size: 6px; -unity-font-style: bold;" />
+        <ui:Button text="Off" display-tooltip-when-elided="true" name="Off" style="height: 0; width: 51px; font-size: 6px; -unity-font-style: bold;" />
+    </ui:VisualElement>
+</ui:UXML>
