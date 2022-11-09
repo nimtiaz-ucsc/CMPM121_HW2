@@ -13,30 +13,31 @@ public class DayNightCycle : MonoBehaviour
     public float exposureMax = 2f;
     [Space]
     public float speed = 0.001f;
+    public float pauseTime = 3f;
 
     private float atmosphereVal;
     private float exposureVal;
     private bool nightToDay = true;
+    private bool isPaused = false;
 
     [HideInInspector]
     public bool cyclePlaying = true;
-    void Start()
-    {
+    void Start() {
         atmosphereVal = (atmosphereMin + atmosphereMax)/2;
         exposureVal = (exposureMin + exposureMax)/2;
         RenderSettings.skybox.SetFloat("_AtmosphereThickness", atmosphereVal);
         RenderSettings.skybox.SetFloat("_Exposure", exposureVal);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        if (atmosphereVal >= atmosphereMax) {
+    void Update() {
+        if (atmosphereVal >= atmosphereMax && nightToDay) {
             nightToDay = false;
-        } else if (atmosphereVal <= atmosphereMin) {
+            StartCoroutine(pauseCycle());
+        } else if (atmosphereVal <= atmosphereMin && !nightToDay) {
             nightToDay = true;
+            StartCoroutine(pauseCycle());
         }
-        if (cyclePlaying) {
+        if (cyclePlaying && !isPaused) {
             if (nightToDay) {
                 RenderSettings.skybox.SetFloat("_AtmosphereThickness", atmosphereVal += speed);
                 RenderSettings.skybox.SetFloat("_Exposure", exposureVal += (speed*2)); 
@@ -46,5 +47,11 @@ public class DayNightCycle : MonoBehaviour
                 RenderSettings.skybox.SetFloat("_Exposure", exposureVal -= (speed*2)); 
             }
         }
+    }
+
+    IEnumerator pauseCycle() {
+        isPaused = true;
+        yield return new WaitForSeconds(pauseTime);
+        isPaused = false;
     }
 }
