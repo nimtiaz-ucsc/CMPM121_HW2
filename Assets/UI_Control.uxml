@@ -11,5 +11,6 @@
         <ui:Button text="On" display-tooltip-when-elided="true" name="On" style="height: 0; width: 51px; font-size: 6px; -unity-font-style: bold;" />
         <ui:Button text="Dimmed" display-tooltip-when-elided="true" name="Dimmed" style="height: 0; width: 51px; font-size: 6px; -unity-font-style: bold;" />
         <ui:Button text="Off" display-tooltip-when-elided="true" name="Off" style="height: 0; width: 51px; font-size: 6px; -unity-font-style: bold;" />
+        <ui:Button text="Pause &#10;Day/Night Cycle" display-tooltip-when-elided="true" name="DayNight_Cycle" style="height: 0; width: 51px; font-size: 6px; -unity-font-style: bold;" />
     </ui:VisualElement>
 </ui:UXML>
